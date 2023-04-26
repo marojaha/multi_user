@@ -1,11 +1,11 @@
 <?php
 // session_start();
 include '../koneksi.php';
+ini_set('date.timezone', 'Asia/Jakarta');
 if ($_SESSION['level'] !== 'user'){
     header('location:../login.php');
     exit;
 }
-ini_set('date.timezone', 'Asia/Jakarta');
 // $pesan = '';
 if ($_SESSION['nama'] == 'joko') {
     $pesan = 'Joko';
