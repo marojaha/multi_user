@@ -1,0 +1,200 @@
+body {
+    background: gray;
+}
+
+.bungkus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* width: 250px;
+    height: 250px; */
+    /* background: beige; */
+    /* border: 1px solid blue; */
+    /* border: 1px solid rgb(173, 69, 69);
+    box-shadow: 2px 2px rgb(143, 47, 47); */
+    border-radius: 5px;
+    /* z-index: -10; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    padding: 10px;
+    /* height: 200px;
+    width: 400px; */
+}
+
+.task {
+    font-size: medium;
+    color: white;
+    background: rgb(163, 13, 13);
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(143, 47, 47);
+}
+
+.job {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(173, 69, 69);
+    box-shadow: 2px 2px rgb(143, 47, 47);
+    border-radius: 5px;
+}
+
+#judul {
+    font-size: .6cm;
+    color: #2e61ad;
+}
+
+.inputField {
+    /* margin: 10px auto; */
+    padding: 5px;
+}
+
+input,
+select {
+    height: 25px;
+    font-size: medium;
+    border: 1px solid rgb(22, 21, 21);
+    box-shadow: 2px 2px rgb(27, 25, 25);
+}
+
+label {
+    height: 30px;
+    font-size: .5cm;
+    color: red;
+}
+
+.tugas {
+    width: 150px;
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+
+/* .block {
+    display: block;
+} */
+
+.radio-buttom {
+    border: 1px solid black;
+    width: 180px;
+}
+
+.user {
+    text-align: center;
+    border: 1px blue solid;
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -0);
+}
+
+.gambar {
+    display: block;
+    position: absolute;
+    width: 200;
+    height: 100px;
+    top: 50px;
+}
+
+img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    transform: translate(-0, -50%);
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* #pesanErr {
+    color: blue;
+} */
+
+#masuk {
+    color: white;
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    width: 70px;
+    background: rgb(226, 103, 103);
+    border: 1px solid green;
+    padding: 5px;
+}
+
+#kembali,
+#kembali1 {
+    color: white;
+    position: absolute;
+    left: 10px;
+    border-radius: 5px;
+    width: 70px;
+    background: rgb(92, 231, 92);
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.blink {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: blink 2s steps(1, end) infinite;
+}
+
+.blink1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: blink 2s steps(1, end) infinite;
+    animation-delay: 0.5s;
+}
+
+.blink2 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    animation: blink 2s steps(1, end) infinite;
+    animation-delay: 1s;
+}
+
+.blink3 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: blink 2s steps(1, end) infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
