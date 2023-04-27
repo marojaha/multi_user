@@ -50,10 +50,7 @@ if (isset($_POST['masuk'])){
             </div>
             <img class="gambarUser" src="../img/nyapu.jpeg" alt="">
         </div>
-        <div class="blink"></div>
-        <div class="blink1"></div>
-        <div class="blink2"></div>
-        <div class="blink3"></div>
+      
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="../js/user.js"></script>
 
