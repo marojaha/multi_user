@@ -16,7 +16,7 @@ login();
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <title>Login </title>
   </head>
   <body>
 
@@ -29,24 +29,7 @@ login();
           <div class="kotakMasuk">
             <button id="tombolMasuk">Masuk</button>
           </div>
-<!-- login manual -->
-          <div id="bungkus" class="bungkus">
-            <ul id="form-massage">
-                 
-            </ul>
-            <form action="">
 
-              <div id="login">LOGIN</div>
-              <div id="kotak" class="kotak">
-                
-                </div>
-                <div id="kotak1" class="kotak"></div>
-                <div id="control">
-                  <button id="cancel">Cancel</button>
-                  <button type="submit" id="masuk">Masu</button>
-                  
-                </div>             
-              </form>
 
            <!-- <p id="pesan">pesan</p> -->
 
