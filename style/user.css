@@ -178,23 +178,3 @@ p {
     animation: blink 2s steps(1, end) infinite;
     animation-delay: 1s;
 }
-
-.blink3 {
-    width: 100px;
-    height: 100px;
-    background: blue;
-    animation: blink 2s steps(1, end) infinite;
-    animation-delay: 1.5s;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
