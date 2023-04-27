@@ -155,26 +155,3 @@ p {
     border: 1px solid red;
     padding: 5px;
 }
-
-.blink {
-    width: 100px;
-    height: 100px;
-    background: red;
-    animation: blink 2s steps(1, end) infinite;
-}
-
-.blink1 {
-    width: 100px;
-    height: 100px;
-    background: green;
-    animation: blink 2s steps(1, end) infinite;
-    animation-delay: 0.5s;
-}
-
-.blink2 {
-    width: 100px;
-    height: 100px;
-    background: yellow;
-    animation: blink 2s steps(1, end) infinite;
-    animation-delay: 1s;
-}
