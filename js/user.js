@@ -515,6 +515,7 @@ function ajakPhAir() {
                 aerasi2: aerasi2,
                 aerasi3: aerasi3,
                 effluent: effluent,
+                recycle: recycle,
                 inlet: inlet,
                 pam: pam
 
