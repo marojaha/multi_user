@@ -270,7 +270,7 @@ function phAir() {
     buatDiv(ph, 'class', 'inputField')
     buatDiv(ph, 'class', 'inputField')
     buatDiv(ph, 'class', 'inputField')
-    buatDiv(ph, 'class', 'inputField')
+
     let inputField = document.querySelectorAll('.inputField')
 
     buatInput('id', 'aerasi1', 'placeholder', 'Aerasi 1', inputField[0])
@@ -279,7 +279,7 @@ function phAir() {
     buatInput('id', 'effluent', 'placeholder', 'Effluent', inputField[3])
     buatInput('id', 'recycle', 'placeholder', 'Recycle', inputField[4])
     buatInput('id', 'inlet', 'placeholder', 'Inlet', inputField[5])
-    buatInput('id', 'pam', 'placeholder', 'PAM', inputField[6])
+
 
     tombolMasuk(ph)
     ajakPhAir()
@@ -508,7 +508,7 @@ function ajakPhAir() {
             let effluent = $('#effluent').val()
             let recycle = $('#recycle').val()
             let inlet = $('#inlet').val()
-            let pam = $('#pam').val()
+
 
             $('#pesanErr').load('indexDataPhAir.php', {
                 aerasi1: aerasi1,
@@ -516,8 +516,8 @@ function ajakPhAir() {
                 aerasi3: aerasi3,
                 effluent: effluent,
                 recycle: recycle,
-                inlet: inlet,
-                pam: pam
+                inlet: inlet
+
 
             })
         })
