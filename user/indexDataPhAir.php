@@ -9,9 +9,9 @@ $sekarangTgl = date('Y-m-d');
     $aerasi2 = $_POST['aerasi2']; 
     $aerasi3 = $_POST['aerasi3']; 
     $effluent = $_POST['effluent']; 
+    $recycle = $_POST['recycle']; 
     $inlet = $_POST['inlet']; 
-    $inlet = $_POST['inlet']; 
-    $pam = $_POST['pam']; 
+   
      
     if(empty($aerasi1)  or empty($aerasi2) or empty($aerasi3) or empty($effluent) or empty($recycle) or empty($inlet) or empty($pam)){
         echo '<p id="pesanErr1">Isi  Kotak</p>';
