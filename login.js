@@ -24,23 +24,7 @@ function hapusIsi() {
     }
 }
 
-masuk.addEventListener('click', function(e) {
-    let userName = document.querySelector('#userName')
-    let pesan = document.createElement('p')
 
-    e.preventDefault()
-
-    if (userName.value == "") {
-        pesan.innerText = 'Nama dan Password harus di isi'
-        kotak.appendChild(pesan)
-    } else {
-
-        hapusIsi()
-        login.innerText = 'TASK'
-        tugas.forEach(buatTombo)
-        masuk.style.display = 'none'
-    }
-})
 
 tombolMasuk.addEventListener('click', function() {
     bungkus.style.display = 'block'
@@ -55,28 +39,7 @@ tombolMasuk.addEventListener('click', function() {
     login.innerText = 'LOGIN'
     masuk.style.display = 'block'
 })
-cancel.addEventListener('click', function() {
-        bungkus.style.display = 'none'
-        tombolMasuk.style.display = 'block'
-        hapusIsi()
-            // masuk.style.display = 'block'
-            // kotak1.style.display = 'none'
-            // kotak.style.display = 'block'
-            // kotak.classList.add('kotak2')
-            // kotak.classList.add('kotak')
-    })
-    // let text = ''
-    // const anak = kotak.children
-    // for (let i = 0; i < anak.length; i++) {
-    //     text += anak[i].tagName + "<br>"
-    //     login.innerText = text
-    // }
 
-// let pesan = document.querySelector('#pesan')
-// const tes = setTimeout(function() {
-//     pesan.style.display = 'none'
-
-// }, 1000)
 let kotakKedip = document.querySelector('.kotakKedip')
 
 let count = 0

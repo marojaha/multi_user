@@ -41,7 +41,7 @@ if (isset($_POST['masuk'])){
     
   
     
-        <p id="pesanErr"></p>
+        <p id="pesanErr">sss</p>
          
         <div class="user">
             <div class="gambar">
